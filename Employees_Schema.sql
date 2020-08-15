@@ -22,7 +22,7 @@ emp_title_id VARCHAR(30) NOT NULL,
 birth_date VARCHAR(30) NOT NULL,
 first_name VARCHAR(30) NOT NULL,
 last_name VARCHAR(30) NOT NULL,
-gender VARCHAR(5) NOT NULL,
+sex VARCHAR(5) NOT NULL,
 hire_date VARCHAR(30) NOT NULL,
 FOREIGN KEY (emp_title_id) REFERENCES titles(title_id));
 
@@ -48,7 +48,7 @@ FOREIGN KEY (emp_no) REFERENCES employees(emp_no));
 --Salaries Table
 CREATE TABLE salaries(
 emp_no INT NOT NULL,
-salary VARCHAR(30) NOT NULL,
+salary INT NOT NULL,
 FOREIGN KEY (emp_no) REFERENCES employees(emp_no));
 
 --Check to make sure imports worked ok (change table name as needed)
