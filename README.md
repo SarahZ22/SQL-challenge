@@ -7,3 +7,8 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 
 Data Engineering/Data Modeling\
 Data Analysis
+
+#### Process:
+For this assignment I had to inspect the CSVs and sketch out an ERD of the tables. (posted above) \
+I then used this information to create a table schema for each of the CSV files. These were impored into a corresponding SQL Table. \
+This database was then used for some basic analysis both in SQL and Python.
